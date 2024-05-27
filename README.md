@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Frontend Assignment
+How to Run the App
+To run the app, you can use npm with the following command:
 
-## Getting Started
-
-First, run the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Objective
+Your task is to create a Next.js application with CRUD operations for a product entity and a complete cycle of user registration, login, and error page according to the provided design.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Next Application
+Initialization
+Initialize the Next.js project.
+Create a clean folder structure.
+Functionality
+Use local storage for managing user authentication.
+Implement User registration and login flow.
+Create a CRUD system for a product entity.
+Implement a 404 error page.
+Requirements
+Users can register by email, name, and password.
+Users can log into the system by email and password.
+Users cannot visit the home page without login.
+Validation should be done in all forms with proper error messages.
+Users can create, save, update, and delete the products [Name, Price, Quantity].
+Users can download the products table as a file (Any format).
+Deliverables
+Complete the source code of the Next.js application including:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Registration page
+Login page
+Home screen
+404 page
